@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text, Button, StyleSheet } from "react-native";
+
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Módulo: Desarrollo Móvil</Text>
       <Text style={styles.description}>
-        {" "}
-        Aprende a crear apps increíbles con React Native y navegación.{" "}
+        Aprende a crear apps increíbles con React Native y navegación.
       </Text>
       <Button
         title="Ver datos del estudiante"
@@ -15,6 +15,7 @@ export default function HomeScreen({ navigation }) {
     </View>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     padding: 20,
