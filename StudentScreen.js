@@ -4,8 +4,8 @@ import StudentCard from "./StudentCard";
 
 export default function StudentScreen({ navigation }) {
   const student = {
-    name: "Ana Martínez",
-    age: 21,
+    name: "Manuel Alejandro Ortega Rodríguez",
+    age: 18,
     image: "./assets/favicon.png",
   };
 

@@ -3,7 +3,7 @@ import { View, Text, Button, StyleSheet } from "react-native";
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Módulo: Desarrollo Móvil</Text>
+      <Text style={styles.title}>Modulo 5: Desarrollo de componentes para dispositivos móviles</Text>
       <Text style={styles.description}>
         {" "}
         Aprende a crear apps increíbles con React Native y navegación.{" "}
