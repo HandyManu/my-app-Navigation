@@ -6,16 +6,20 @@ export default function StudentScreen({ navigation }) {
   const student = {
     name: "Ana Martínez",
     age: 21,
+    image: "./assets/favicon.png",
   };
 
   return (
     <View style={styles.container}>
-      <StudentCard name={student.name} age={student.age} />
+      <StudentCard
+        name={student.name}
+        age={student.age}
+        image={student.image}
+      />
       <Button title="Regresar" onPress={() => navigation.goBack()} />
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     padding: 20,
